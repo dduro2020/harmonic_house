@@ -234,11 +234,11 @@
       </plugin>
 
       <!-- Entity tree -->
-      <plugin filename="EntityTree" name="Entity tree">
+      <!-- <plugin filename="EntityTree" name="Entity tree">
         <gz-gui>
           <property type="string" key="state">docked_collapsed</property>
         </gz-gui>
-      </plugin>
+      </plugin> -->
 
       <!-- View angle -->
       <plugin filename="ViewAngle" name="View angle">
@@ -393,7 +393,7 @@
       <uri>Lake House</uri>
       <pose>0 0 0 0 0 0</pose>
     </include>
-    <include>
+    <!-- <include>
       <name>Water</name>
       <uri>Coast Waves 2</uri>
       <pose>0 0 0 0 0 0</pose>
@@ -422,15 +422,15 @@
           </geometry>
         </collision>
       </link>
-    </model>
+    </model> -->
     <include>
       <name>Terrain</name>
       <uri>Terrain</uri>
     </include>
-    <include>
+    <!-- <include>
       <name>Terrain Objects</name>
       <uri>Terrain Objects</uri>
-    </include>
+    </include> -->
     <include>
       <name>Armchair_01</name>
       <pose>-0.24 -0.13 6.90 0 0 -0.77</pose>
