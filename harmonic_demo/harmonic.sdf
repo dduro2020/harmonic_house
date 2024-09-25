@@ -393,12 +393,12 @@
       <uri>Lake House</uri>
       <pose>0 0 0 0 0 0</pose>
     </include>
-    <!-- <include>
+    <include>
       <name>Water</name>
       <uri>Coast Waves 2</uri>
       <pose>0 0 0 0 0 0</pose>
     </include>
-    <include>
+    <!-- <include>
       <name>Spheres</name>
       <pose>-35 65 0 0 0 0</pose>
       <uri>Spheres</uri>
@@ -501,26 +501,26 @@
       <name>Desk</name>
       <uri>Desk</uri>
     </include>
-    <include>
+    <!-- <include>
       <pose>-0.90 2.04 10.26 0 0 0</pose>
       <name>fidget_spinner</name>
       <uri>fidget_spinner</uri>
-    </include>
+    </include> -->
     <include>
       <pose>-0.74 1.45 9.48 0 0 -0.81</pose>
       <name>Office Chair</name>
       <uri>Office Chair</uri>
     </include>
-    <include>
+    <!-- <include>
       <pose>1.85 -5.05 7.82 0 0 0</pose>
       <name>Pendulum</name>
       <uri>Pendulum</uri>
-    </include>
-    <include>
+    </include> -->
+    <!-- <include>
       <name>Pendulum_sculpture</name>
       <pose>3.43 -3.82 7.64 0 0 1.57</pose>
       <uri>pendulum_sculpture</uri>
-    </include>
+    </include> -->
     <include>
       <pose>2.98 0.85 6.91 0 0 -2.37</pose>
       <name>Piano</name>
@@ -531,16 +531,16 @@
       <name>Sky</name>
       <uri>Sky</uri>
     </include>
-    <include>
+    <!-- <include>
       <pose>1.1 -0.6 9.46 0 0 0.0</pose>
       <name>Harmonic Mascot</name>
       <uri>Harmonic Mascot</uri>
-    </include>
-    <include>
+    </include> -->
+    <!-- <include>
       <pose degrees="true">-1.75 -1.04 8.37   0 0 -90</pose>
       <uri>CartPole</uri>
-    </include>
-    <include>
+    </include> -->
+    <!-- <include>
       <name>Tethys</name>
       <pose>-40 60 -0.8 0 0 -1.25</pose>
       <uri>Tethys Sensors</uri>
@@ -548,10 +548,10 @@
       <plugin
         filename="gz-sim-odometry-publisher-system"
         name="gz::sim::systems::OdometryPublisher">
-      </plugin>
+      </plugin> -->
 
       <!-- Joint controllers -->
-      <plugin
+      <!-- <plugin
         filename="gz-sim-joint-position-controller-system"
         name="gz::sim::systems::JointPositionController">
         <joint_name>horizontal_fins_joint</joint_name>
@@ -574,12 +574,12 @@
         <thrust_coefficient>0.004422</thrust_coefficient>
         <fluid_density>1000</fluid_density>
         <propeller_diameter>0.2</propeller_diameter>
-      </plugin>
+      </plugin> -->
 
       <!-- Lift and drag -->
 
       <!-- Vertical fin -->
-      <plugin
+      <!-- <plugin
         filename="gz-sim-lift-drag-system"
         name="gz::sim::systems::LiftDrag">
         <air_density>1000</air_density>
@@ -594,10 +594,10 @@
         <forward>1 0 0</forward>
         <link_name>vertical_fins</link_name>
         <cp>0 0 0</cp>
-      </plugin>
+      </plugin> -->
 
       <!-- Horizontal fin -->
-      <plugin
+      <!-- <plugin
         filename="gz-sim-lift-drag-system"
         name="gz::sim::systems::LiftDrag">
         <air_density>1000</air_density>
@@ -637,7 +637,7 @@
         <nRabsR>-632.698957</nRabsR>
         <nR>0</nR>
       </plugin>
-    </include>
+    </include> -->
 
     <model name="boundary">
       <static>true</static>
