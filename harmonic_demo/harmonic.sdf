@@ -423,7 +423,7 @@
     
   <!-- April Tags -->
     <include>
-      <pose>1.75 -3.89 6.90 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <name>posAprilTags</name>
       <uri>posAprilTags</uri>
     </include>
