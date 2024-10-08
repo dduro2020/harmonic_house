@@ -428,6 +428,11 @@
       <uri>posAprilTags</uri>
     </include>
 
+    <include>
+      <pose>1.0 -1.5 7.1 0 0 1.57079</pose>
+      <uri>marble_husky_sensor_config_5</uri>
+    </include>
+
 
 
     <model name="boundary">
